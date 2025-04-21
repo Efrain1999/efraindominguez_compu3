@@ -3,6 +3,6 @@ Mi landing page es una presentación clara y directa sobre quién soy y qué hag
 
 Dejo el link de mi repositorio: https://github.com/Efrain1999/efraindominguez_compu3
 
-La pantalla en la que trabaje fue 1920x1080.
+La pantalla en la que trabaje fue 1920x1080 y el editor de texto fue Visual Studio Code.
 
 Adjunto la imagen en el zip, de igual forma cuando se visuliaz el proyecto, dandole clic en "Mira el proceso" se abre una pestalla con un drive donde también se encuentra la captura. 
