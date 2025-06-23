@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Efraín Domínguez</title>
+        <link rel="icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!--- header --->
+    <header>
+        <a href="#" class="logo">by.<span>efrain</span></a>
+        <ul class="navlist">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#sobre-mi">Sobre mi</a></li>
+            <li><a href="index.html#informacion">Información</a></li>
+            <li><a href="skills.html" class="active">Skills</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            <li><a href="index.html#contacto">Contácto</a></li>
+        </ul>
+    </header>
+
+<main>
+    <!--- inicio de skills --->
+    <section id="skill">    
+        <div class="skills">
+            <div class="top_div">
+                    <h1>Skills</h1>
+                    <hr>
+            </div>
+            <div class="content-skill">
+                <img src="img/photoshop-skill.png" width="150px" height="150px" alt="icono de photoshop">
+                <h2>PHOTOSHOP</h2>
+            </div>
+    
+            <div class="content-skill">
+                <img src="img/illustrator-skill.png" width="150px" height="150px" alt="icono de illustrator">
+                <h2>ILLUSTRATOR</h2>
+            </div>
+    
+            <div class="content-skill">
+                <img src="img/premiere-skill.png" width="150px" height="150px" alt="icono de premiere">
+                <h2>PREMIERE</h2>
+            </div>
+    
+            <div class="content-skill">
+                <img src="img/figma-skill.svg" width="150px" height="150px" alt="icono de figma">
+                <h2>FIGMA</h2>
+            </div>
+    
+            <div class="content-skill">
+                <img src="img/html-skill.png" width="150px" height="150px" alt="icono de html">
+                <h2>HTML</h2>
+            </div>
+    
+            <div class="content-skill">
+                <img src="img/css-skill.png" width="150px" height="150px" alt="icono de html">
+                <h2>CSS</h2>
+            </div>
+        </div>
+    </section>
+
+    <!--- galeria --->
+    <section id="galeria" class="galeria-texto">
+        <h1>Animaciones</h1>
+        <hr>
+        <p>Algunas animaciones que surgieron a partir de la exploración para el trabajo final de Taller de Diseño 1.</p>
+    </section>
+    <section class="galeria">
+        <img src="img/animacion-1.gif" width="1080px" height="1920px" alt="Animación para Taller 1" />
+        <img src="img/animacion-2.gif" width="1080px" height="1080px" alt="Animación de amanecer" />
+        <img src="img/animacion-3.gif" width="1080px" height="1080px" alt="Animación de patrones"/>
+        <img src="img/animacion-4.gif" width="1080px" height="1080px" alt="Jack White" />
+        <img src="img/animacion-5.gif" width="1080px" height="1080px" alt="The Weeknd" />
+        <img src="img/animacion-6.gif" width="1080px" height="1080px" alt="Oliver Tree" />
+    </section>
+
+    <!--- segunda galeria con afiches --->
+
+    <section id="galeria" class="galeria-texto">
+        <h1>Afiche y vinilo</h1>
+        <hr>
+        <p>Segundo y tercer trabajo para Taller de diseño 2</p>
+    </section>
+    <section class="galeria">
+        <img src="img/felicidades-afiche.jpg" width="842px" height="1191px" alt="Afiche para Taller 2" />
+        <img src="img/vinilo-tapa.jpg" width="1006px" height="1006px" alt="Tapa para vinilo" />
+        <img src="img/vinilo-contratapa.jpg" width="1006px" height="1006px" alt="Contratapa para vinilo"/>
+    </section>    
+
+</main>
+
+    <!--- footer --->
+    <footer>
+        <p class="text">Efraín Domínguez | UnLa | Computación 3 | 1er Cuatrimestre | 2025</p>
+    </footer>
+</body>
+
+  <div id="lightbox" class="lightbox">
+    <span class="cerrar">&times;</span>
+    <img class="lightbox-img" src="" alt="Imagen ampliada" />
+  </div>
+
+  <script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.querySelector('.lightbox-img');
+    const cerrar = document.querySelector('.cerrar');
+    const imagenes = document.querySelectorAll('.galeria img');
+
+    imagenes.forEach(img => {
+      img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.src;
+      });
+    });
+
+    cerrar.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+      }
+    });
+  </script>
+
+</html>
