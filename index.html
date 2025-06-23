@@ -4,22 +4,27 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Efraín Domínguez</title>
+        <link rel="icon" href="img/favicon-16x16.png" type="image/png" sizes="16x16" />
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
     </head>
 <body>
-    <!--- header ---> 
+    <!--- header --->
     <header>
         <a href="#" class="logo">by.<span>efrain</span></a>
             <ul class="navlist">
-                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="index.html" class="active">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mi</a></li>
                 <li><a href="#informacion">Información</a></li>
-                <li><a href="#skill">Skills</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="skills.html#galeria">Galería</a></li>
                 <li><a href="#contacto">Contácto</a></li>
             </ul>
     </header>
 
+<main>
     <!--- home seccion ---> 
     <section class="home" id="home">
         <div class="home-texto">
@@ -38,22 +43,30 @@
     </section>
 
     <!--- sobre mi --->
-    <section class="sobre-mi" id="sobre-mi">
-        <div class="sobre-mi-img">
-            <img src="img/img_frente01.png" alt="foto de perfil">
-        </div>
-            <div class="sobre-mi-texto">
-                <h2>Sobre <span>mi</span></h2>
-                <hr>
-                <p>Me llamo Efraín, tengo 25 años y soy de Buenos Aires, Argentina. Actualmente estudio Diseño y Comunicación Visual en la Universidad Nacional de Lanús, y trabajo como editor. Además, realicé un curso de Community Manager para seguir ampliando mis conocimientos en comunicación digital.</p>
-                <p>En mi tiempo libre disfruto de entrenar, leer y ver documentales, siempre buscando aprender algo nuevo. Me considero una persona responsable, curiosa y resolutiva, capaz de adaptarme con calma a situaciones complicadas o exigentes.</p>
-                <a href="#contacto" class="btn">Contactame</a>
-            </div>
-    </section>
+<section class="sobre-mi" id="sobre-mi">
+  <div class="sobre-mi-img">
+    <img src="img/img-personal.png" width="689px" height="918px" alt="foto de perfil">
+  </div>
+
+  <article class="sobre-mi-texto">
+    <h2>Sobre <span>mi</span></h2>
+    <hr>
+    <p>
+      Me llamo Efraín, tengo 25 años y soy de Buenos Aires, Argentina. Actualmente estudio Diseño y Comunicación Visual en la Universidad Nacional de Lanús, mientras trabajo como editor. Además, realicé diversos cursos para seguir especializando mis conocimientos en comunicación digital.
+    </p>
+    <p>
+      En mi tiempo libre disfruto de entrenar, leer y ver documentales, me encanta viajar y conocer nuevos lugares. Me considero una persona responsable, curiosa y resolutiva, capaz de adaptarme con calma a situaciones complicadas o exigentes.
+    </p>
+    <div class="sobre-mi-extra-img">
+      <img src="img/zapatilla-gif.gif" width="540px" height="405px" alt="ilustración estilo anime de zapatillas">
+    </div>
+  </article>
+</section>
+    
     <!--- informacion - educacion --->
     <section class="informacion" id="informacion">
         <div class="informacion-row">
-            <div class="informacion-column">
+            <article class="informacion-column">
                 <h2 class="title">Educación</h2>
                     <div class="informacion-box">
                         <div class="informacion-content">
@@ -80,9 +93,9 @@
                             </div>
                         </div>
                     </div>
-            </div>
+            </article>
     
-            <div class="informacion-column">
+            <article class="informacion-column">
                 <h2 class="title">Experiencia</h2>
                     <div class="informacion-box">
                         <div class="informacion-content">
@@ -109,74 +122,45 @@
                             </div>
                         </div>
                   </div>
-            </div>
+            </article>
         </div>
     </section>
-    <!--- informacion - experiencia --->
-    <section id="skill">    
-        <div class="skills">
-            <div class="top_div">
-                    <h1>Skills</h1>
-                    <hr>
-            </div>
-            <div class="content-skill">
-                <img src="img/photoshop-skill.png" alt="">
-                <h2>PHOTOSHOP</h2>
-            </div>
-    
-            <div class="content-skill">
-                <img src="img/illustrator-skill.png" alt="">
-                <h2>ILLUSTRATOR</h2>
-            </div>
-    
-            <div class="content-skill">
-                <img src="img/premiere-skill.png" alt="">
-                <h2>PREMIERE</h2>
-            </div>
-    
-            <div class="content-skill">
-                <img src="img/figma-skill.svg" alt="">
-                <h2>FIGMA</h2>
-            </div>
-    
-            <div class="content-skill">
-                <img src="img/html-skill.png" alt="">
-                <h2>HTML</h2>
-            </div>
-    
-            <div class="content-skill">
-                <img src="img/css-skill.png" alt="">
-                <h2>CSS</h2>
-            </div>
-        </div>
-    </section>
+    <!--- fin informacion - experiencia --->
+
     <!--- contacto --->
-    <section id="contacto">
-        <div class="top_div">
-            <h1>Contácto</h1>
-            <hr>
-        </div>
-        <div class="info-box">
-            <div class="contact-card">
-                <a href="mailto:efraindomingueztt@gmail.com">
-                <img src="img/contacto-correo.svg" alt="Email icon" class="email-icon">
-                </a>
-                <p>efraindomingueztt@gmail.com</p>
-            </div>
-        </div>
-      
-        <div class="info-box">
-            <div class="contact-card">
-                <a href="https://www.instagram.com/by.efrain" target="_blank">
-                <img src="img/instagram.svg" alt="Instagram icon" class="instagram-icon">
-                </a>
-                <p>@by.efrain</p>
-            </div>
-        </div>
-    </section>
+<section class="contacto-formulario" id="contacto">
+  <div class="formulario-contenedor">
+    
+    <div class="cto-saludo">
+      <h2>¡Trabajemos <span>juntos</span>!</h2>
+      <hr>
+      <p>¿Tenés un proyecto en mente o alguna consulta?</p>
+      <p>Rellená el siguiente formulario.</p>
+    </div>
+
+    <form class="formulario-contacto" action="#" method="POST">
+      <input class="campo" type="text" name="nombre" placeholder="Tu nombre" required>
+      <input class="campo" type="email" name="email" placeholder="Tu correo" required>
+
+      <!-- NUEVO CAMPO: Selección de servicio -->
+      <select class="campo" name="servicio" required>
+        <option value="" disabled selected>Seleccioná un servicio</option>
+        <option value="edicion">Edición</option>
+        <option value="diseno">Diseño Gráfico</option>
+        <option value="asesoria">Asesoría en redes</option>
+        <option value="branding">Branding e identidad visual</option>
+        <option value="community">Servicios de Community Manager</option>
+      </select>
+      <textarea class="campo" name="mensaje" placeholder="Escribí tu mensaje..." rows="5" required></textarea>
+      <input class="btn-enviar" type="submit" value="Enviar">
+    </form>
+  </div>
+</section>
+</section>
+</main>
     <!--- footer --->
-    <footer class="footer">
-        <p class="text">Efraín Domínguez | UnLa | Computaciín 3 | 1er Cuatrimestre | 2025</p>
+    <footer>
+        <p class="text">Efraín Domínguez | UnLa | Computación 3 | 1er Cuatrimestre | 2025</p>
     </footer>
 </body>
 </html>

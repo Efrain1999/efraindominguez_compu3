@@ -1,9 +1,27 @@
-# efraindominguez_compu3
+efraindominguez_compu3
+Portafolio Web Personal – Efraín Domínguez
 
-El trabajo actualmente consta de un nav, pantalla de inicio y una sección de información más un footer provisorio.
+Este proyecto consiste en una página web personal desarrollada como parte de la cursada de Computación 3. Su objetivo es presentar mi perfil profesional como Social Media Manager y estudiante de Diseño y Comunicación Visual.
 
-Lo ideal sería seguir avanzando y agregar otra sección de "Experiencia/Educacion", otra de "Skills" y por ultimo una sección de Contacto. 
+El sitio fue maquetado en HTML5*y estilizado completamente con CSS3, utilizando tipografías de Google Fonts e íconos de Boxicons. Incluye una estructura semántica clara con secciones dedicadas a:
 
-Si visualizan la pagina de inicio van a ver un botón que dice "Mira el proceso", cliqueando en el botón los lleva a un drive donde puse las capturas de como se ve la página desde mi pantalla.
+-Inicio: Presentación principal y enlaces a contacto y proceso.
+-Sobre mí: Texto biográfico acompañado de imágenes.
+-Información: Trayectoria académica y experiencia laboral.
+-Skills y Galería: Habilidades y algunos trabajos realizados durante la cursada.
+-Contacto: Formulario funcional con campos validados.
 
-Saludos. 
+Además, se aplicaron principios de responsive design, especialmente adaptando el diseño a una visualización correcta en resoluciones pequeñas (especificamente, a 600px de ancho).
+
+Herramientas utilizadas
+
+-Editor de código: Visual Studio Code
+-Lenguajes:HTML, CSS
+-Frameworks o librerías externas: Boxicons, Google Fonts
+-Resolución de pantalla base: 1920x1080 (con diseño adaptado a 600px para vista responsive)
+
+Diseño UI
+
+La estructura y estilo visual del sitio fueron diseñados previamente en Figma, para poder trabajar de manera más comoda.
+
+Link al archivo Figma: https://www.figma.com/design/8jCTEOFY9uHqjhONcaYAnV/portfolio_dominguez_efrain?node-id=4-19&t=e93apoVnoGlCGQpY-1
