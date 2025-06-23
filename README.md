@@ -25,6 +25,7 @@ Diseño UI
 La estructura y estilo visual del sitio fueron diseñados previamente en Figma, para poder trabajar de manera más comoda.
 
 Link al archivo Figma: https://www.figma.com/design/8jCTEOFY9uHqjhONcaYAnV/portfolio_dominguez_efrain?node-id=4-19&t=e93apoVnoGlCGQpY-1
+
 Dejo el link de mi repositorio: https://github.com/Efrain1999/efraindominguez_compu3
 
 Gracias por leer.
